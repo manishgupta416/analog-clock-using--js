@@ -2,8 +2,10 @@
 #clockContainer{
     position: relative;
     margin: auto;
-    height: 40vw;
-    width: 40vw;
+    /* height: 40vw;
+    width: 40vw; */
+    height: 440px;
+    width: 440px;
     background-color: brown;
     background: url(images.png) no-repeat;
     background-size: 100%;
@@ -20,17 +22,18 @@
     
     width: 1%;
     height: 24%;
-    top: 23%;
+    top: 26%;
     left: 49.5%;
     opacity: 0.8;
+    /* display: none; */
    
 }
 
 #minute{
     width: 1%;
-    height: 31%;
-    top: 19%;
-    left: 50.5%;
+    height: 32%;
+    top: 18%;
+    left: 49.5%;
     opacity: 0.8;
     /* display: none; */
     
@@ -42,5 +45,5 @@
     top: 11%;
     left: 49.5%;
     opacity: 0.8;
-    /* display: none; */
+    
 }
