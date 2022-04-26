@@ -1,0 +1,46 @@
+/* relative isliye taki ab is parent ke acc postion ho na ki html ke acc */
+#clockContainer{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background-color: brown;
+    background: url(images.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute ,#second {
+ position: absolute;
+ background: black;
+ border: 10px ;
+ transform-origin: bottom;
+}
+
+#hour{
+    
+    width: 1%;
+    height: 24%;
+    top: 23%;
+    left: 49.5%;
+    opacity: 0.8;
+   
+}
+
+#minute{
+    width: 1%;
+    height: 31%;
+    top: 19%;
+    left: 50.5%;
+    opacity: 0.8;
+    /* display: none; */
+    
+}
+
+#second{
+    width: 1%;
+    height: 40%;
+    top: 11%;
+    left: 49.5%;
+    opacity: 0.8;
+    /* display: none; */
+}
